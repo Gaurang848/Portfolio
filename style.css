@@ -696,6 +696,9 @@ img {
   .contact__container {
     justify-items: center;
   }
+  .flex {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -706,5 +709,24 @@ img {
 
   .home__img {
     right: 10%;
+  }
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .blocks {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .blocks {
+    align-items: center;
   }
 }
